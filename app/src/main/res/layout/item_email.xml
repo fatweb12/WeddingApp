@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="2dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    app:cardCornerRadius="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      android:background="@color/colorAccent"
+
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Ask us a question"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_conNAme"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite"
+            android:fontFamily="sans-serif"
+            android:hint="Your Name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edt_conEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite"
+            android:fontFamily="sans-serif"
+            android:hint="Your Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/edt_conCommant"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint=" Message"
+            android:imeOptions="actionDone"
+            android:inputType="textPostalAddress|textMultiLine"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/btndesign_yellow"
+                android:fontFamily="sans-serif"
+                android:text="CANCEL"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                />
+
+            <Button
+                android:id="@+id/btn_submitemail"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btndesign_yellow"
+                android:fontFamily="sans-serif"
+                android:text="SUBMIT"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

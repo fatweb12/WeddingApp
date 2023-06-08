@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="2dp"
+    app:cardBackgroundColor="@color/translucent_olive"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/rbResto">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ivImage"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="2dp"
+                        android:scaleType="centerCrop"
+                       android:background="@drawable/logo"
+                        app:civ_border_color="@color/light_pink"
+                        app:civ_border_width="1dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/ivImage"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:id="@+id/tvUser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fatweb User"
+android:layout_marginLeft="5dp"
+                            android:textColor="#505050"
+                            android:textSize="16sp" />
+
+                        <TextView
+
+                            android:id="@+id/tvDateAdded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="May. 1 , 2019"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#5A5A5A"
+                            android:textSize="12sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:id="@+id/rbResto"
+                            style="?attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:progressTint="#4ab8d1"
+                            android:isIndicator="true" />
+
+                        <TextView
+
+                            android:id="@+id/tvratingid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ratingid"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                        <TextView
+
+                            android:id="@+id/tvratingid1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ratingidhhh"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvAllergyIcon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tvDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="User comment
+"
+                android:textColor="#5A5A5A"
+                android:textSize="14sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMealImages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/rlDeleteEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_toStartOf="@+id/rlMoreInfo"
+                    android:background="#80cfcfcf"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Edit/Delete"
+                        android:textColor="@color/colorAccent" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlMoreInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="5dp"
+                    android:background="#80cfcfcf"
+                    android:clickable="true"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="More Info"
+                        android:textColor="@color/colorAccent"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

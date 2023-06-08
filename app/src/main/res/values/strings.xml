@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ido.kiwi</string>
+    <string name="title_activity_navigation_activity"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="username_or_mail_address">Please enter username or email address</string>
+    <string name="password">Enter Your Password</string>
+    <string name="forgot_txt">Forgot Password</string>
+    <string name="my_business">My Business</string>
+    <string name="add_my_business">ADD Business</string>
+    <string name="start_typing_an_address">Start Typing an Address...</string>
+    <string name="business_phone_number">Business Phone Number</string>
+    <string name="your_business_detail">Your Business Detail</string>
+    <string name="nearly_there_we_just_need_a_few_details">Nearly there, we just need a few details:</string>
+    <string name="fatweb_solutions">Fatweb Solutions</string>
+    <string name="already_have_a_one_stop_trade_account"><![CDATA[Already have ido.kiwi account?>]]></string>
+    <string name="one_stop_trade">One Stop Trade</string>
+    <string name="check_to_see_if_your_business_is_already_on_one_stop_trade">Check to see if your business is already on ido.kiwi:</string>
+    <string name="select_category">Select Category</string>
+    <string name="sign_in_here">Sign In</string>
+    <string name="access_my_free_business_page">Access my free Business Page</string>
+    <string name="postcode">Postcode</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="your_detail">Your Detail</string>
+    <string name="city">City</string>
+    <string name="suburb">Suburb</string>
+    <string name="postcode1">Postcode</string>
+    <string name="password1">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+<!--
+   // <string name="url_live">https://wedding.geek.fatweb.co.nz/api/</string>
+-->
+    <string name="url_live">https://ido.kiwi/api/</string>
+
+    https://ido.kiwi/
+    <string name="facebook_app_id">526320638141218</string>
+    <string name="fb_login_protocol_scheme">fb526320638141218</string>
+    <string name="error_msg_unknown">Error!</string>
+    <string name="tap_to_reload">Tap To Reload</string>
+
+
+</resources>
